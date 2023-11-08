@@ -1,0 +1,15 @@
+.compRoot{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  gap: 13px
+}
+.toggleMenuBtn{
+  padding: 6px 8px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

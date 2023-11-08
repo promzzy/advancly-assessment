@@ -1,0 +1,14 @@
+.pageRoot{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.mainPageBody{
+  flex: 1px;
+  display: flex;
+}
+.viewpoint{
+  flex: 1px;
+  background-color: #fbfbfd;
+  height: 100%;
+}

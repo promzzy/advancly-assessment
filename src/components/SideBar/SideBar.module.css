@@ -1,0 +1,47 @@
+.compRoot{
+  width: 200px;
+  transition: ease 0.30s;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.collapseMenu{
+  width: 60px;
+}
+.navWrap{
+  flex: 1px;
+}
+.routeBtn{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 1em;
+  font-weight: 500;
+  position: relative;
+}
+.routeBtn:hover{
+  background-color: #00000029;
+  color: #000;
+}
+.isActive{
+  background-color: #f5f6ff;
+  color: #405bf0;
+}
+.navMenuIcon{
+  font-size: 1.2em;
+}
+.pathNameHidden{
+  display: none;
+  transition: ease 0.20s;
+}
+.navName{
+  font-size: 1em;
+  font-weight: 400;
+  transition: ease 0.20s;
+}
