@@ -1,7 +1,7 @@
 import { FC, useCallback } from "react";
 import classes from './SideBar.module.css'
 import { NAVIGATION_PATHS } from "./constants";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate, } from "react-router-dom";
 
 
 
@@ -18,6 +18,7 @@ interface SideBarProps {
 const SideBar: FC<SideBarProps> = ({isMenuCollapsed}) => {
 
   const location = useLocation()
+  const navigate = useNavigate()
 
      const isPathVisited = useCallback(
     (navItem: RouteTypeProps) =>
@@ -34,7 +35,7 @@ const SideBar: FC<SideBarProps> = ({isMenuCollapsed}) => {
          NAVIGATION_PATHS.map((path: RouteTypeProps) => (
          <button
          key={path.path}
-         onClick={() => {}}
+         onClick={() => {navigate(path.path)}}
           className={`${classes.routeBtn} ${ isPathVisited(path) ? classes.isActive : undefined}`}>
           <span className={classes.navMenuIcon}>
            { <path.icon />}
@@ -44,7 +45,7 @@ const SideBar: FC<SideBarProps> = ({isMenuCollapsed}) => {
          ))
         }
       </div>
-      <div>SideBar</div>
+      <div></div>
     </div>
   )
 }

@@ -1,12 +1,14 @@
 .compRoot{
-  width: 200px;
+  width: 180px;
   transition: ease 0.30s;
   padding: 15px;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  height: 100%;
 }
 .collapseMenu{
-  width: 60px;
+  width: 50px;
 }
 .navWrap{
   flex: 1px;
@@ -20,14 +22,16 @@
   margin-bottom: 10px;
   width: 100%;
   border: none;
+  border-radius: 3px;
   background-color: transparent;
   font-size: 1em;
   font-weight: 500;
   position: relative;
+  white-space: nowrap;
 }
 .routeBtn:hover{
   background-color: #00000029;
-  color: #000;
+  color: #405bf0;
 }
 .isActive{
   background-color: #f5f6ff;
@@ -44,4 +48,18 @@
   font-size: 1em;
   font-weight: 400;
   transition: ease 0.20s;
+}
+@media screen and (max-width: 500px) {
+ .compRoot{
+  position: absolute;
+  left: -100%;
+
+ }
+ .collapseMenu{
+    width: 180px;
+    left: 0;
+ }
+ .pathNameHidden{
+  display: block;
+}
 }

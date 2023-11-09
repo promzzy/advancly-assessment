@@ -1,7 +1,33 @@
 .componentRoot{
   border: 1px solid #f0f2f7;
   border-radius: 6px;
-  padding: 15px;
+  padding: 15px 25px;
   min-height: 100px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.comonentIcon{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #edf0ff;
+  color: #3855ef;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+}
+.compTitle{
+  color: #798089;
+  font-size: .85em;
+  font-weight: 600;
+  margin: 12px 0;
+}
+.countValue{
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.imageWrapper{
+  height: 180px;
+  width: 100%;
 }

@@ -17,22 +17,22 @@ export const NAVIGATION_PATHS = [
   },
   {
    name: 'Vendors',
-  path: DASHBOARD_LAYOUT_PATHS.checkOut,
+  path: DASHBOARD_LAYOUT_PATHS.vendors,
   icon: BsBox,
   },
   {
    name: 'Clients',
-  path: DASHBOARD_LAYOUT_PATHS.checkOut,
+  path: DASHBOARD_LAYOUT_PATHS.clients,
   icon: BsPeople,
   },
   {
    name: 'Sales Orders',
-  path: DASHBOARD_LAYOUT_PATHS.checkOut,
+  path: DASHBOARD_LAYOUT_PATHS.salesOrders,
   icon: RiArrowRightUpLine,
   },
   {
    name: 'Account Payable',
-  path: DASHBOARD_LAYOUT_PATHS.checkOut,
+  path: DASHBOARD_LAYOUT_PATHS.accounts,
   icon: BsCurrencyDollar,
   },
 ]
