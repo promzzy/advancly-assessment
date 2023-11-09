@@ -1,0 +1,69 @@
+.pageRoot{
+  display: flex;
+  flex-direction: column;
+  height: 93%;
+  gap: 5px;
+}
+.dashBoardTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pageTitleBtn{
+  border: none;
+  background-color: transparent;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 500;
+}
+.leftIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #0e34d4;
+  color: #fbfbfd;
+  font-size: 1.1em;
+}
+.mainBody{
+  display: flex;
+  gap: 20px;
+ flex: 1;
+ background-color: #ffffff;
+ padding: 25px;
+}
+.leftContent{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.rightContent{
+  flex: 1.5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ItemCountsAnalytic{
+  display: flex;
+  gap: 25px;
+
+}
+.ItemCountsAnalytic > *{
+  flex: 1;
+}
+.dropdownWrapper{
+  width: 100px;
+  padding: 5px 10px;
+ box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+ background-color: #ffffff;
+}
+.dropDown{
+  border: none;
+}
