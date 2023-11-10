@@ -23,7 +23,7 @@ const Dashboard: FC<DashboardProps> = ({ title }) => {
           <span className={classes.leftIcon}>
             <BiChevronLeft />
           </span>
-          <h4>{`${title} analytics Overview`}</h4>
+          <h4>{title}</h4>
         </button>
 
         <div className={classes.dropdownWrapper}>
