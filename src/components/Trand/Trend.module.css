@@ -1,0 +1,13 @@
+.trendWrapper{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: .67em;
+  font-weight: 500;
+}
+.up{
+  color: #2cc32d;
+}
+.down{
+  color: #f1282a;
+}
