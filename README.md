@@ -17,4 +17,5 @@ Installs the application on your local machine and all packages that is availabl
 Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<img width="1280" alt="Screenshot 2023-11-10 at 00 54 32" src="https://github.com/promzzy/advancly-assessment/assets/60267352/f86b376c-d424-47c3-b3af-5e21af8ba54d">
+<img width="1276" alt="Screenshot 2023-11-10 at 08 48 09" src="https://github.com/promzzy/advancly-assessment/assets/60267352/cfb0a3b4-8ff9-4555-9fe7-24a86a329052">
+
